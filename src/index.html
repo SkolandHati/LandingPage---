@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/fonts/Montserrat/Montserrat.css">
+    <title>Musik Concert Landing Page</title>
+</head>
+<body>
+    <section class="hero">
+        <div class="menu">
+            <div class="header">
+                <img class="logo" src="./assets/logo/Logo.png" alt="image">
+            </div>
+            <div class="buttons-client">
+                <div class=container>
+                    <a class="buttn" >Home</a>
+                </div>
+                <div class=container style="display: block">
+                    <a class="buttn" >Speakers</a>
+                    <img class="arrow-icon" src="images/icons/arrow-down-3.png" alt="images">
+                </div>
+                <div class=container>
+                    <a class="buttn" >Schedule</a>
+                    <img class="arrow-icon" src="images/icons/arrow-down-3.png" alt="images">
+                </div>
+                <div class=container>
+                    <a class="buttn" >Contact Us</a>
+                </div>
+                <button class="ticket">
+                    <a class="ticket-text">GET TICKETS</a></button>
+            </div>
+        </div>
+        <div class="content">
+            <h1 class="best">The Best experience of <span style="color: #FFA3A3">Music</span> in 2024</h1>
+            <p class="text" style="margin-top: 0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ligula placerat, eleifend ex non, vehicula libero. Suspendisse eget tellus lectus.
+            </p>
+            <div class="get-and-watch" style="display: flex; gap: 40px">
+                <button class="ticket" style="border-radius: 8px; background:#FC5252; border-color: #FC5252">
+                    <a class="ticket-text" style="color: white">Get Started</a>
+                </button>
+            <div class="label">
+                <img src="images/icons/Play.png" alt="images">
+                <a class="ticket-text" style="color: white;
+                                              font-size: 20px;
+                                              position: relative;
+                                              display: initial;
+                                              bottom: 20px;
+                                              left: 10px"
+                                              >Watch Video</a>
+            </div>
+            </div>
+        </div>
+        <div class="data">
+            <h1 class="text-data">22d  13h  46m  18s</h1>
+        </div>
+    </section>
+    <section class="categories">
+        <div class="category">
+            <h1 class="category-text" style="color: black">
+                <span style="color: #381DDB">Explore</span> By Category
+            </h1>
+            <div class="category-block">
+                <div class="block" style="background: #DB841D">
+
+                </div>
+                <div class="block" style="background: #FC5252">
+
+                </div>
+                <div class="block" style="background: #381DDB">
+
+                </div>
+                <div class="block" style="background: #C00096">
+
+                </div>
+                <div class="block" style="background: #84C4FF">
+                    <p>ewgegwggewgewg</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+<style>
+    @import url('./assets/fonts/Montserrat/Montserrat.css');
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 9023px;
+        background: #FFF;
+    }
+    /* Стиль для блока "Hero" */
+    .hero{
+        width: 1920px;
+        height: 964px;
+        background: linear-gradient(180deg, #381DDB 0%, rgba(0, 0, 0, 0.20) 100%),
+                    linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%,
+                    rgba(0, 0, 0, 0.20) 100%), url(images/ImageFont.png)
+                    lightgray 50% / cover no-repeat;
+        flex-shrink: 0;
+        background-position: top center;
+    }
+    .buttn{
+        color: #FFFFFF;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+    .arrow-icon{
+        position: absolute;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+    .menu{
+        max-width: 1920px;
+        display: inline-flex;
+        padding: 32px 363px 32px 363px;
+        justify-content: center;
+        align-items: center;
+        gap: 371px;
+        border: 1px solid #000;
+    }
+    .buttons-client{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+    .container{
+        width: auto;
+    }
+    .ticket{
+        width: 175px;
+        height: 56px;
+        display: flex;
+        padding: 18px 16px;
+        align-items: center;
+        gap: 12px;
+        justify-content: center;
+        border-radius: 8px;
+        background: #FFF;
+    }
+    .ticket-text{
+        color: #381DDB;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+    }
+    .logo{
+        width: 125px;
+        height: 30px;
+        fill: #FFF;
+    }
+    /*Закрытие стиля для блока "Hero" */
+
+    /* Стиль для блока "Content" */
+    .content{
+        position: relative;
+        top: 50px;
+        left: 475px;
+        right: 475px;
+        bottom: 563px;
+        display: flex;
+        width: 970px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .best{
+        align-self: stretch;
+        color: #FFF;
+        margin-bottom: 7px;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+    .label{
+        width: 220px;
+        height: 56px;
+        text-align: center;
+    }
+    .text{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 22px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 38px; /* 158.333% */
+    }
+    .data{
+        top: 130px;
+        position: relative;
+    }
+    .text-data{
+        color: #FFFFFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 144px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0px;
+        opacity: 0.5;
+        -webkit-text-stroke-width: 1px;
+    }
+    /*Закрытие стиля для блока "Content" */
+    /* Стиль для блока "categories" */
+    .categories{
+        width: 1920px;
+        position: relative;
+        top: 250px;
+    }
+    .category-text{
+        left: 375px;
+        position: relative;
+        font-family: Montserrat;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        bottom: 60px;
+    }
+    .category-block{
+        display: inline-flex;
+        align-items: center;
+        gap: 40px;
+        transform: translateX(-2%)
+    }
+    .block{
+        width: 370px;
+        height: 326px;
+        flex-shrink: 0;
+        border-radius: 24px;
+        opacity: 0.1;
+    }
+</style>
