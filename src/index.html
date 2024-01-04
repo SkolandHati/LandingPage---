@@ -9,7 +9,7 @@
 <body>
     <section class="hero">
         <div class="menu">
-            <div class="header">
+            <div class="header" style="cursor: pointer">
                 <img class="logo" src="./assets/logo/Logo.png" alt="image">
             </div>
             <div class="buttons-client">
@@ -18,16 +18,16 @@
                 </div>
                 <div class=container style="display: block">
                     <a class="buttn" >Speakers</a>
-                    <img class="arrow-icon" src="images/icons/arrow-down-3.png" alt="images">
+                    <img class="arrow-icon" src="assets/images/icons/arrow-down-3.png" alt="images">
                 </div>
                 <div class=container>
                     <a class="buttn" >Schedule</a>
-                    <img class="arrow-icon" src="images/icons/arrow-down-3.png" alt="images">
+                    <img class="arrow-icon" src="assets/images/icons/arrow-down-3.png" alt="images">
                 </div>
                 <div class=container>
                     <a class="buttn" >Contact Us</a>
                 </div>
-                <button class="ticket">
+                <button class="ticket" style="cursor: pointer">
                     <a class="ticket-text">GET TICKETS</a></button>
             </div>
         </div>
@@ -37,11 +37,11 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ligula placerat, eleifend ex non, vehicula libero. Suspendisse eget tellus lectus.
             </p>
             <div class="get-and-watch" style="display: flex; gap: 40px">
-                <button class="ticket" style="border-radius: 8px; background:#FC5252; border-color: #FC5252">
+                <button class="ticket" style="border-radius: 8px; background:#FC5252; border-color: #FC5252; cursor: pointer">
                     <a class="ticket-text" style="color: white">Get Started</a>
                 </button>
             <div class="label">
-                <img src="images/icons/Play.png" alt="images">
+                <img src="assets/images/icons/Play.png" alt="images">
                 <a class="ticket-text" style="color: white;
                                               font-size: 20px;
                                               position: relative;
@@ -62,21 +62,68 @@
                 <span style="color: #381DDB">Explore</span> By Category
             </h1>
             <div class="category-block">
-                <div class="block" style="background: #DB841D">
-
+                <div class="block" style="background: rgba(219, 132, 29, 0.1);">
+                    <div class="content-block">
+                        <img src="assets/images/icons/Dj%20Mixer.png" alt="image">
+                        <h3 class="headin">Pop</h3>
+                        <p class="slogan">
+                            Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae
+                        </p>
+                    </div>
                 </div>
-                <div class="block" style="background: #FC5252">
-
+                <div class="block" style="background: rgba(252, 82, 82, 0.1)">
+                    <div class="content-block">
+                        <img src="assets/images/icons/Bagpipes.png" alt="image">
+                        <h3 class="headin">Folk</h3>
+                        <p class="slogan">
+                            Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae
+                        </p>
+                    </div>
                 </div>
-                <div class="block" style="background: #381DDB">
-
+                <div class="block" style="background: #381DDB;">
+                    <div class="content-block">
+                        <img src="assets/images/icons/Saxophone.png" alt="image">
+                        <h3 class="headin" style="color: #FFF">Instrumental</h3>
+                        <p class="slogan" style="color: #FFF">
+                            Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae
+                        </p>
+                    </div>
                 </div>
-                <div class="block" style="background: #C00096">
-
+                <div class="block" style="background: rgba(192, 0, 150, 0.1);">
+                    <div class="content-block">
+                        <img src="assets/images/icons/Guitar.png" alt="image">
+                        <h3 class="headin" style="color: black">Rock</h3>
+                        <p class="slogan">
+                            Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae
+                        </p>
+                    </div>
                 </div>
-                <div class="block" style="background: #84C4FF">
-                    <p>ewgegwggewgewg</p>
+                <div class="block" style="background: rgba(132, 196, 255, 0.1)">
+                    <div class="content-block">
+                        <img style="" src="assets/images/icons/Trumpet.png" alt="image">
+                        <h3 class="headin">Jazz</h3>
+                        <p class="slogan">
+                            Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae
+                        </p>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-music">
+        <div class="info" style="display: flex">
+            <div class="image-block">
+                <img class="image-about" src="assets/images/OtherImage/ImageAboutMusik.png" alt="image">
+                <img  style="position: relative;top: 70px; left: 70px;" src="assets/images/OtherImage/ImageAboutMusikNoOpacity.png" alt="image">
+            </div>
+            <div class="info-musik" style="position: relative; left: 140px; top: 107px">
+                <h2 class="about-musik-text">About Musik</h2>
+                <p class="musik-text">
+                    Fusce justo mi, vehicula id arcu et, dapibus tristique lectus. Vivamus a elit sodales, tincidunt nunc non, maximus lacus. Fusce a augue sed dolor auctor iaculis vitae id mauris. Integer ut lectus non neque suscipit luctus. Mauris et erat id ipsum condimentum cursus. Sed tempus enim non massa mattis iaculis. In quis massa risus
+                </p>
+                <button class="ticket" style="background: #381DDB; border-radius: 8px; cursor: pointer">
+                    <a class="ticket-text" style="color: #FFF;">Learn More</a>
+                </button>
             </div>
         </div>
     </section>
@@ -98,7 +145,7 @@
         height: 964px;
         background: linear-gradient(180deg, #381DDB 0%, rgba(0, 0, 0, 0.20) 100%),
                     linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%,
-                    rgba(0, 0, 0, 0.20) 100%), url(images/ImageFont.png)
+                    rgba(0, 0, 0, 0.20) 100%), url(assets/images/ImageFont.png)
                     lightgray 50% / cover no-repeat;
         flex-shrink: 0;
         background-position: top center;
@@ -221,12 +268,13 @@
     /*Закрытие стиля для блока "Content" */
     /* Стиль для блока "categories" */
     .categories{
-        width: 1920px;
+        width: 100%;
         position: relative;
         top: 250px;
     }
     .category-text{
         left: 375px;
+        width: 50%;
         position: relative;
         font-family: Montserrat;
         font-size: 34px;
@@ -246,6 +294,86 @@
         height: 326px;
         flex-shrink: 0;
         border-radius: 24px;
-        opacity: 0.1;
+    }
+    .content-block{
+        position: relative;
+        left: 60px;
+        top: 90px;
+        right: 120px;
+        bottom: 36px;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    .headin{
+        color: #222;
+        margin: 0;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 38px; /* 158.333% */
+    }
+    .slogan{
+        width: 190px;
+        margin: 0;
+        opacity: 0.5;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    /*Закрытие стиля для блока "Content" */
+    /* Стиль для блока "About Musik" */
+    .about-music{
+        width: 70%;
+        max-width: 1920px;
+        height: 550px;
+        /*padding: 0px 375px;*/
+        left: 375px;
+        right: 375px;
+        top: 500px;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+    }
+    .image-about{
+        position: absolute;
+    }
+    .info-musik{
+        width: 570px;
+    }
+    .about-musik-text{
+        /*width: 300px;*/
+        margin-bottom: 32px;
+        align-self: stretch;
+        color: black;
+        font-family: Montserrat;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%; /* 44.2px */
+    }
+    .musik-text{
+        color: #222;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 80px;
+    }
+    .info-musik{
+
+    }
+    .about-buttons{
+        display: flex;
+        padding: 18px 34px;
+        align-items: center;
+        gap: 12px;
     }
 </style>

@@ -5,6 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9f3611e-218a-479c-b2c3-d5c98591293b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/ImageFont.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/ImageFont.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/Img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/Img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/Bagpipes.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icons/Bagpipes.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/Dj Mixer.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icons/Dj Mixer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/Guitar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icons/Guitar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/Play.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icons/Play.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/Saxophone.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icons/Saxophone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/arrow-down-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icons/arrow-down-3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "<unknown>",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/MARCUS/HTML.CSS.JS/LandingPage",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -51,11 +60,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MARCUS\HTML.CSS.JS\LandingPage\src\assets" />
       <recent name="C:\Users\MARCUS\HTML.CSS.JS\LandingPage\src" />
       <recent name="C:\Users\MARCUS\HTML.CSS.JS\LandingPage\dist" />
       <recent name="C:\Users\MARCUS\HTML.CSS.JS\LandingPage\src\images" />
       <recent name="C:\Users\MARCUS\HTML.CSS.JS\LandingPage\src\assets\backgroungImage" />
-      <recent name="C:\Users\MARCUS\HTML.CSS.JS\LandingPage\src\assets" />
     </key>
   </component>
   <component name="RunManager">
@@ -87,6 +96,8 @@
       <workItem from="1704221894458" duration="4135000" />
       <workItem from="1704279680805" duration="21855000" />
       <workItem from="1704334998308" duration="1272000" />
+      <workItem from="1704336978484" duration="1715000" />
+      <workItem from="1704402971385" duration="7632000" />
     </task>
     <servers />
   </component>
