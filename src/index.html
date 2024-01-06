@@ -368,6 +368,64 @@
         </div>
         <button class="ticket" style="cursor: pointer; margin-top: 150px; width: 225px; height: 56px; font-family: Montserrat; background: #381DDB; box-shadow: 0 10px 30px 0 rgba(56, 29, 219, 0.20);border-radius: 8px; left: 855px; position: relative; justify-content: center; text-align: center; color: #FFF">Become a Sponsor</button>
     </section>
+    <section class="testimonials">
+        <h2 class="about-musik-text" style="width: 1920px; position: relative; justify-content: center; display: flex;height: 44px; margin-bottom: 61px">Testimonials</h2>
+        <div class="all-block" style="display: flex; transform: translateX(-11.5%); max-width: 2300px; overflow: hidden; width: 2170px">
+            <div class="content-user" style="
+                                            width: 770px;
+                                            height: 359px;
+                                            margin-left: 30px;
+                                            margin-right: 30px;
+                                            position: relative;
+                                            top: 10px;opacity: 0.3;">
+                <div class="comment-block">
+                    <div class="comment" style="display: block;">
+                        <img style="float: left; margin-top: 30px" src="assets/images/icons/QuotesApp.png" alt="image">
+                        <p class="about-musik-text" style="text-align: center;position: relative;display: flex; width: 650px; height: 72px;font-size: 16px;top: 50px; opacity: 0.6;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <img style="float: right" src="assets/images/icons/QuotesDown.png" alt="image">
+                    </div>
+                </div>
+                <div class="user-block">
+                    <img style="position: relative;bottom: 60px;" src="assets/images/UserAvatar/EllieAvatar.png" alt="image">
+                    <h2 style="position: relative;bottom: 80px;font-size: 20px; font-family: Montserrat">Ellie James</h2>
+                    <h3 style="font-size: 16px;position: relative;bottom: 120px;font-family: Montserrat;color:#381DDB">lorem.com</h3>
+                </div>
+            </div>
+            <div class="content-user" style="width: 770px; height: 359px; position: relative;">
+                <div class="comment-block">
+                    <div class="comment" style="display: block;">
+                        <img style="float: left; margin-top: 30px" src="assets/images/icons/QuotesApp.png" alt="image">
+                        <p class="about-musik-text" style="text-align: center;position: relative;display: flex; width: 650px; height: 72px;font-size: 16px;top: 50px; opacity: 0.6;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <img style="float: right" src="assets/images/icons/QuotesDown.png" alt="image">
+                    </div>
+                </div>
+                <div class="user-block">
+                    <img style="position: relative;bottom: 60px;" src="assets/images/UserAvatar/JohnnyAvatar.png" alt="image">
+                    <h2 style="position: relative;bottom: 80px;font-size: 20px; font-family: Montserrat">Johnny Doe</h2>
+                    <h3 style="font-size: 16px;position: relative;bottom: 120px;font-family: Montserrat;color:#381DDB">ipsum.com</h3>
+                </div>
+            </div>
+            <div class="content-user" style="
+                                            width: 770px;
+                                            height: 359px;
+                                            margin-left: 30px;
+                                            position: relative;
+                                            top: 10px;opacity: 0.3;overflow:hidden;">
+                <div class="comment-block">
+                    <div class="comment" style="display: block;">
+                        <img style="float: left; margin-top: 30px" src="assets/images/icons/QuotesApp.png" alt="image">
+                        <p class="about-musik-text" style="text-align: center;position: relative;display: flex; width: 650px; height: 72px;font-size: 16px;top: 50px; opacity: 0.6;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <img style="float: right" src="assets/images/icons/QuotesDown.png" alt="image">
+                    </div>
+                </div>
+                <div class="user-block" style="width: 720px;">
+                    <img style="position: relative;bottom: 60px;" src="assets/images/UserAvatar/MyneAvatar.png" alt="image">
+                    <h2 style="position: relative;bottom: 80px;font-size: 20px; font-family: Montserrat">Myne Barack</h2>
+                    <h3 style="font-size: 16px;position: relative;bottom: 120px;font-family: Montserrat;color:#381DDB">ipsum.com</h3>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
 
@@ -741,4 +799,42 @@
         /*flex-shrink: 0;*/
     }
     /*Закрытие стиля для блока "sponsors" */
+    /* Стиль для блока "testimonials" */
+    .testimonials{
+        display: block;
+        position: relative;
+        width: 100%;
+        top: 1750px;;
+        max-width: 1920px;
+        height: 494px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    .comment-block{
+        width: 770px;
+        height: 232px;
+        gap: 30px;
+        flex-shrink: 0;
+        background: rgba(34, 34, 34, 0.1);
+    }
+    .comment{
+        width: 710px;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        position: relative;
+        left: 30px;
+        right: 30px;
+        top: 20px;
+    }
+    .user-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        height: 150px;
+    }
+    /*Закрытие стиля для блока "testimonials" */
 </style>
