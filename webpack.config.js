@@ -27,7 +27,7 @@ module.exports = {
     devtool: 'source-map',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        publicPath: "http://192.168.86.83:8080/",
+        publicPath: "http://192.168.167.13:8080/",
         clean: true,
         assetModuleFilename: path.join('images', '[name].[contenthash][ext]'),
     },
@@ -36,18 +36,18 @@ module.exports = {
             { test: /\.(html)$/, use: ['html-loader'] },
             { test: /\.svg$/, use: ['svg-inline-loader'] },
             { test: /\.css$/,
-                use: [
-                    { loader: 'style-loader' },
-                    {loader: 'css-loader',
-                        options: {
-                            url:true
-                        },
-                    }
-                ],
+             use:['style-loader',
+                 {loader: 'css-loader', options: {url: true}}]
+                 // {loader: 'style-loader',},
+                 // {loader: 'css-loader',
+                 //     options: {
+                 //        url: true
+                 //     },
+                 //    },
             },
             {   test: /\.(png|jpg|jpeg|gif)$/i,
                 type: 'asset/resource',
           },
         ],
-    }
+    },
 }

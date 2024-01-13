@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9f3611e-218a-479c-b2c3-d5c98591293b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ImageFont.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Img.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +47,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MARCUS/HTML.CSS.JS/LandingPage&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MARCUS/JsTrain&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -52,11 +59,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MARCUS\HTML.CSS.JS\LandingPage\src\css" />
       <recent name="C:\Users\MARCUS\HTML.CSS.JS\LandingPage\src\assets" />
       <recent name="C:\Users\MARCUS\HTML.CSS.JS\LandingPage\src" />
       <recent name="C:\Users\MARCUS\HTML.CSS.JS\LandingPage\dist" />
       <recent name="C:\Users\MARCUS\HTML.CSS.JS\LandingPage\src\images" />
-      <recent name="C:\Users\MARCUS\HTML.CSS.JS\LandingPage\src\assets\backgroungImage" />
     </key>
   </component>
   <component name="RunManager">
@@ -90,7 +97,11 @@
       <workItem from="1704334998308" duration="1272000" />
       <workItem from="1704336978484" duration="1715000" />
       <workItem from="1704402971385" duration="45867000" />
-      <workItem from="1704580396048" duration="6854000" />
+      <workItem from="1704580396048" duration="7272000" />
+      <workItem from="1704680769725" duration="31000" />
+      <workItem from="1705031879489" duration="1224000" />
+      <workItem from="1705033115721" duration="28000" />
+      <workItem from="1705033153519" duration="37727000" />
     </task>
     <servers />
   </component>

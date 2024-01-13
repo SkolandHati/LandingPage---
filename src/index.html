@@ -2,107 +2,101 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./assets/fonts/Montserrat/Montserrat.css">
     <title>Musik Concert Landing Page</title>
 </head>
 <body>
     <section class="hero">
-        <div class="menu">
-            <div class="header" style="cursor: pointer">
-                <img class="logo" src="./assets/logo/Logo.png" alt="image">
+        <div class="hero_menu">
+            <div class="header">
+                <img class="header_logo" src="./assets/logo/Logo.png" alt="image">
             </div>
-            <div class="buttons-client">
-                <div class=container>
-                    <a class="buttn" >Home</a>
+            <div class="menu_buttons">
+                <div class="menu_container__button">
+                    <a class="containet_text_m">Home</a>
                 </div>
-                <div class=container style="display: block">
-                    <a class="buttn" >Speakers</a>
-                    <img class="arrow-icon" src="assets/images/icons/arrow-down-3.png" alt="images">
+                <div class="menu_container__button">
+                    <a class="containet_text_m" >Speakers</a>
+                    <img class="arrow__icon" src="assets/images/icons/arrow-down-3.png" alt="images">
                 </div>
-                <div class=container>
-                    <a class="buttn" >Schedule</a>
-                    <img class="arrow-icon" src="assets/images/icons/arrow-down-3.png" alt="images">
+                <div class="menu_container__button">
+                    <a class="containet_text_m" >Schedule</a>
+                    <img class="arrow__icon" src="assets/images/icons/arrow-down-3.png" alt="images">
                 </div>
-                <div class=container>
-                    <a class="buttn" >Contact Us</a>
+                <div class="menu_container__button">
+                    <a class="containet_text_m" >Contact Us</a>
                 </div>
-                <button class="ticket" style="cursor: pointer">
-                    <a class="ticket-text">GET TICKETS</a></button>
+                <button class="button_style">
+                    <a class="button_text_m">GET TICKETS</a>
+                </button>
             </div>
         </div>
-        <div class="content">
-            <h1 class="best">The Best experience of <span style="color: #FFA3A3">Music</span> in 2024</h1>
-            <p class="text" style="margin-top: 0">
+        <div class="header_banner">
+            <h1 class="header_banner__information">The Best experience of <span style="color: #FFA3A3">Music</span> in 2024</h1>
+            <p class="header_banner__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ligula placerat, eleifend ex non, vehicula libero. Suspendisse eget tellus lectus.
             </p>
-            <div class="get-and-watch" style="display: flex; gap: 40px">
-                <button class="ticket" style="border-radius: 8px; background:#FC5252; border-color: #FC5252; cursor: pointer">
-                    <a class="ticket-text" style="color: white">Get Started</a>
+            <div class="get_watch">
+                <button class="get_watch__ticket button_style">
+                    <a class="get_watch__ticket__text font_color__white">Get Started</a>
                 </button>
-            <div class="label">
-                <img src="assets/images/icons/Play.png" alt="images">
-                <a class="ticket-text" style="color: white;
-                                              font-size: 20px;
-                                              position: relative;
-                                              display: initial;
-                                              bottom: 20px;
-                                              left: 10px"
-                                              >Watch Video</a>
-            </div>
+                <div class="label">
+                    <img src="assets/images/icons/Play.png" alt="images">
+                    <a class="label_text">Watch Video</a>
+                </div>
             </div>
         </div>
-        <div class="data">
-            <h1 class="text-data">22d  13h  46m  18s</h1>
+        <div class="header_data">
+            <h1 class="header_text__data">22d  13h  46m  18s</h1>
         </div>
     </section>
-    <section class="categories">
-        <div class="category">
-            <h1 class="category-text" style="color: black">
-                <span style="color: #381DDB">Explore</span> By Category
-            </h1>
-            <div class="category-block">
-                <div class="block" style="background: rgba(219, 132, 29, 0.1);">
-                    <div class="content-block">
+    <section class="category">
+        <div class="category_container">
+            <h1 class="category_container__text containet_text_m">
+                <span class="category_text_span">Explore</span> By Category</h1>
+            <div class="category_block__card">
+                <div class="card_block__mixer card_style">
+                    <div class="category_content__block">
                         <img src="assets/images/icons/Dj%20Mixer.png" alt="image">
-                        <h3 class="headin">Pop</h3>
-                        <p class="slogan">
+                        <h3 class="card_headin containet_text_m">Pop</h3>
+                        <p class="card_slogan">
                             Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae
                         </p>
                     </div>
                 </div>
-                <div class="block" style="background: rgba(252, 82, 82, 0.1)">
-                    <div class="content-block">
+                <div class="card_block__bagpipes card_style">
+                    <div class="category_content__block">
                         <img src="assets/images/icons/Bagpipes.png" alt="image">
-                        <h3 class="headin">Folk</h3>
-                        <p class="slogan">
+                        <h3 class="card_headin containet_text_m">Folk</h3>
+                        <p class="card_slogan">
                             Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae
                         </p>
                     </div>
                 </div>
-                <div class="block" style="background: #381DDB;">
-                    <div class="content-block">
+                <div class="card_block__saxophone card_style">
+                    <div class="category_content__block">
                         <img src="assets/images/icons/Saxophone.png" alt="image">
-                        <h3 class="headin" style="color: #FFF">Instrumental</h3>
-                        <p class="slogan" style="color: #FFF">
+                        <h3 class="card_headin containet_text_m font_style_color" style="color: #FFFFFF">Instrumental</h3>
+                        <p class="card_slogan font_style_color" style="color: #FFFFFF">
                             Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae
                         </p>
                     </div>
                 </div>
-                <div class="block" style="background: rgba(192, 0, 150, 0.1);">
-                    <div class="content-block">
+                <div class="card_block__guitar card_style">
+                    <div class="category_content__block">
                         <img src="assets/images/icons/Guitar.png" alt="image">
-                        <h3 class="headin" style="color: black">Rock</h3>
-                        <p class="slogan">
+                        <h3 class="card_headin containet_text_m">Rock</h3>
+                        <p class="card_slogan">
                             Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae
                         </p>
                     </div>
                 </div>
-                <div class="block" style="background: rgba(132, 196, 255, 0.1)">
-                    <div class="content-block">
+                <div class="card_block__trumpet card_style">
+                    <div class="category_content__block">
                         <img style="" src="assets/images/icons/Trumpet.png" alt="image">
-                        <h3 class="headin">Jazz</h3>
-                        <p class="slogan">
+                        <h3 class="card_headin containet_text_m">Jazz</h3>
+                        <p class="card_slogan">
                             Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae
                         </p>
                     </div>
@@ -110,435 +104,208 @@
             </div>
         </div>
     </section>
-    <section class="about-music">
-        <div class="info" style="display: flex">
-            <div class="image-block">
-                <img class="image-about" src="assets/images/OtherImage/ImageAboutMusik.png" alt="image">
-                <img  style="position: relative;top: 70px; left: 70px;" src="assets/images/OtherImage/ImageAboutMusikNoOpacity.png" alt="image">
+    <section class="about_music">
+        <div class="about_music__information">
+            <div class="about_music__image_block">
+                <img class="about_music_image__one" src="assets/images/OtherImage/ImageAboutMusik.png" alt="image">
+                <img class="about_music_image__two" style="position: relative;top: 70px; left: 70px;" src="assets/images/OtherImage/ImageAboutMusikNoOpacity.png" alt="image">
             </div>
-            <div class="info-musik" style="position: relative; left: 140px; top: 107px">
-                <h2 class="about-musik-text">About Musik</h2>
-                <p class="musik-text">
+            <div class="information_music">
+                <h2 class="information_music__header containet_text_m">About Musik</h2>
+                <p class="information_music__text containet_text_m">
                     Fusce justo mi, vehicula id arcu et, dapibus tristique lectus. Vivamus a elit sodales, tincidunt nunc non, maximus lacus. Fusce a augue sed dolor auctor iaculis vitae id mauris. Integer ut lectus non neque suscipit luctus. Mauris et erat id ipsum condimentum cursus. Sed tempus enim non massa mattis iaculis. In quis massa risus
                 </p>
-                <button class="ticket" style="background: #381DDB; border-radius: 8px; cursor: pointer">
-                    <a class="ticket-text" style="color: #FFF;">Learn More</a>
+                <button class="information_music__buttons button_style">
+                    <a class="music_buttons_text containet_text_m">Learn More</a>
+                    <img src="assets/images/icons/Arrow-rigth.png" alt="image-arrow-rigth">
                 </button>
             </div>
         </div>
     </section>
-    <section class="singers" style="display: flex">
-        <div class="info-musik" style="position: relative; gap: 70px">
-            <h2 class="about-musik-text">Singers</h2>
-            <p class="musik-text">
+    <section class="singers">
+        <div class="singers_information__music">
+            <h2 class="singers_information__header font_style">Singers</h2>
+            <p class="singers_header__text font_style">
                 Fusce justo mi, vehicula id arcu et, dapibus tristique lectus. Vivamus a elit sodales, tincidunt nunc non, maximus lacus. Fusce a augue sed dolor auctor iaculis vitae id mauris. Integer ut lectus non neque suscipit luctus. Mauris et erat id ipsum condimentum cursus. Sed tempus enim non massa mattis iaculis. In quis massa risus
             </p>
-            <button class="ticket" style="width: 243px; background: #381DDB; border-radius: 8px; cursor: pointer">
-                <a class="ticket-text" style="color: #FFF;">View All Singers</a>
+            <button class="singers_button">
+                <a class="singers_button__text font_style">View All Singers</a>
                 <img src="assets/images/icons/Arrow-rigth.png" alt="images">
             </button>
         </div>
-        <div class="container-images">
-            <img style="position: relative;
-                        padding-top: 40px;
-                        margin-right: 30px;
-                        border-radius: 24px;
-                        -webkit-filter: drop-shadow(10px 10px 10px lightgray);
-                        filter: drop-shadow(15px 15px 15px lightgray); "
-                 src="assets/images/SingersImage/GirlO4koImage.png" alt="image">
-            <img style="position: relative;
-                        padding-bottom: 40px;
-                        -webkit-filter: drop-shadow(10px 10px 10px lightgray);
-                        filter: drop-shadow(15px 15px 15px lightgray); "
-                 src="assets/images/SingersImage/MenBorogaImage.png" alt="image">
-            <img style="position: relative;
-                        top: 51px;
-                        margin-right: 30px;
-                        -webkit-filter: drop-shadow(10px 10px 10px lightgray);
-                        filter: drop-shadow(15px 15px 15px lightgray);"
-                 src="assets/images/SingersImage/girlInNeonImage.png" alt="image">
-            <img style="position: relative;
-                        -webkit-filter: drop-shadow(10px 10px 10px lightgray);
-                        filter: drop-shadow(15px 15px 15px lightgray);"
-                 src="assets/images/SingersImage/anonimusBoy.png" alt="image">
+        <div class="singers_container__images">
+            <img class="images__one" src="assets/images/SingersImage/GirlO4koImage.png" alt="singers_image">
+            <img class="images__two" src="assets/images/SingersImage/MenBorogaImage.png" alt="singers_image">
+            <img class="images__three" src="assets/images/SingersImage/girlInNeonImage.png" alt="singers_image">
+            <img class="images__four" src="assets/images/SingersImage/anonimusBoy.png" alt="singers_image">
         </div>
     </section>
-    <section class="event-schedule">
-        <div class="event-schedule-info" style="display: flex">
-            <h2 class="about-musik-text" style="margin: 0">Event Schedule</h2>
-            <div class="event-schedule-data" style="display: flex; align-items: center; gap: 30px">
-                <div class="data-event-schedule" style="width: 370px">
-                    <h3 class="about-musik-text"
-                        style="color: #381DDB;
-                        font-size: 24px;
-                        margin: 0; margin-bottom: 3px">Day 01</h3>
-                    <p class="about-musik-text"
-                       style="color: #381DDB;
-                       font-size: 16px;
-                       opacity: 0.5;
-                       margin: 0;
-                       margin-bottom: 20px">16 August</p>
-                    <div class="palka" style="width: 370px; height: 4px; background: #381DDB"></div>
+    <section class="event_schedule">
+        <div class="event_schedule__information">
+            <h2 class="event_schedule__header font_style">Event Schedule</h2>
+            <div class="event_schedule__data">
+                <div class="event_block__data">
+                    <h3 class="event_block__text font_color__base font_style">Day 01</h3>
+                    <p class="block_text font_style font_color__base">16 August</p>
+                    <div class="block_palka font_color_background"></div>
                 </div>
-                <div class="data-event-schedule" style="width: 370px">
-                    <h3 class="about-musik-text"
-                        style="color: #222;
-                        font-size: 24px;
-                        margin: 0;
-                        margin-bottom: 3px;
-                        opacity: 0.5;">Day 01</h3>
-                    <p class="about-musik-text"
-                       style="color: #222;
-                       font-size: 16px;
-                       opacity: 0.5;
-                       margin: 0;
-                       margin-bottom: 20px">17 August</p>
-                    <div class="palka" style="width: 370px; height: 4px; background: #381DDB; opacity: 0.1;"></div>
+                <div class="event_block__data opacity_style">
+                    <h3 class="event_block__text font_style font_color__black">Day 02</h3>
+                    <p class="block_text font_style font_color__black">17 August</p>
+                    <div class="block_palka font_color_background__black"></div>
                 </div>
-                <div class="data-event-schedule" style="width: 370px">
-                    <h3 class="about-musik-text"
-                        style="color: #222;
-                        font-size: 24px;
-                        margin: 0; margin-bottom: 3px;
-                        opacity: 0.5;">Day 01</h3>
-                    <p class="about-musik-text"
-                       style="color: #222;
-                       font-size: 16px;
-                       opacity: 0.5;
-                       margin: 0;
-                       margin-bottom: 20px">18 August</p>
-                    <div class="palka" style="width: 370px; height: 4px; background: #381DDB; opacity: 0.1;"></div>
+                <div class="event_block__data opacity_style">
+                    <h3 class="event_block__text font_style font_color__black">Day 03</h3>
+                    <p class="block_text font_style font_color__black">18 August</p>
+                    <div class="block_palka font_color_background__black"></div>
                 </div>
             </div>
-            <div class="schedule-artist">
-                <div class="menu-event-schedule" style="display: flex; border-radius: 24px 24px 0 0;">
-                    <h2 class="about-musik-text" style="
-                    width: 230px;
-                    font-size: 24px;
-                    margin-top: 41px;
-                    margin-bottom: 41px;
-                    margin-left: 40px">Time</h2>
-                    <h2 class="about-musik-text" style="width: 370px;
-                    font-size: 24px;
-                    margin-top: 41px;
-                    margin-bottom: 41px;
-                    margin-left: 40px">Content</h2>
-                    <h2 class="about-musik-text" style="
-                    width: 270px;
-                    font-size: 24px;
-                    margin-top: 41px;
-                    margin-bottom: 41px;
-                    margin-left: 40px">Speakers</h2>
+            <div class="event_schedule__artist">
+                <div class="event_schedule__menu">
+                    <h2 class="event_schedule__menu_time font_style">Time</h2>
+                    <h2 class="event_schedule__menu_content font_style">Content</h2>
+                    <h2 class="event_schedule__menu_speakers font_style">Speakers</h2>
                 </div>
-                <div class="block-artist-info">
-                    <div class="info-concert">
-                        <h4 class="about-musik-text" style="margin:0;width: 230px; font-size: 16px; color: #222222; position: relative; left: 40px">11:00 AM to 12:00 PM</h4>
-                        <p class="about-musik-text" style="margin:0; width: 370px; font-size: 16px; position: relative; left: 45px">Vestibulum vel eros vel metus lacinia feugiat a nec metus.</p>
-                        <div class="block-spiackers">
-                            <div class="spiackers" style="width: 270px;height: 56px; display: flex; position: relative; left: 55px">
+                <div class="schedule_artist__information">
+
+                    <div class="information_concert">
+                        <h4 class="concert_header font_style">11:00 AM to 12:00 PM</h4>
+                        <p class="concert_text font_style">Vestibulum vel eros vel metus lacinia feugiat a nec metus.</p>
+                        <div class="schedule_block__speackers">
+                            <div class="block_speackers">
                                 <img class="avatar" src="assets/images/AvatarSpeackers/RonaldAvatar.png" alt="images">
-                                <div class="spiackers-info">
-                                    <h1 class="about-musik-text" style="margin: 0; width: 204px; font-size: 16px;">Yui Ronald</h1>
-                                    <h1 class="about-musik-text" style="margin: 0; width: 204px; font-size: 16px; opacity: 0.5;">Booth: 2F12</h1>
+                                <div class="speackers_information">
+                                    <h1 class="speackers_information__name font_style">Yui Ronald</h1>
+                                    <h1 class="speackers_information__token font_style">Booth: 2F12</h1>
                                 </div>
                             </div>
                         </div>
-                        <h1 class="about-musik-text" style="margin-bottom: 0; font-size: 16px; text-align: right; position: relative; left: 20px; gap: 0">Preview</h1>
-                        <img style="margin-top: 12px" src="assets/images/icons/SheduliePlay.png" alt="image">
+                        <h1 class="speackers_preview__buttons font_style">Preview</h1>
+                        <img class="speackers_image" src="assets/images/icons/SheduliePlay.png" alt="speackers_image">
                     </div>
 
-                    <hr class="divader" style="width: 1170px; opacity: 0.1">
+                    <hr class="speackers_divider">
 
-                    <div class="info-concert">
-                        <h4 class="about-musik-text" style="margin:0;width: 230px; font-size: 16px; color: #222222; position: relative; left: 40px">12:00 PM to 03:00 PM</h4>
-                        <p class="about-musik-text" style="margin:0; width: 370px; font-size: 16px; position: relative; left: 45px">Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.</p>
-                        <div class="block-spiackers">
-                            <div class="spiackers" style="width: 270px;height: 56px; display: flex; position: relative; left: 55px">
-                                <img class="avatar" src="assets/images/AvatarSpeackers/JohnAvatar.png" alt="images">
-                                <div class="spiackers-info">
-                                    <h1 class="about-musik-text" style="margin: 0; width: 204px; font-size: 16px;">Bob John</h1>
-                                    <h1 class="about-musik-text" style="margin: 0; width: 204px; font-size: 16px; opacity: 0.5;">Booth: 3G12</h1>
+                    <div class="information_concert">
+                        <h4 class="concert_header modificate_style font_style">12:00 PM to 03:00 PM</h4>
+                        <p class="concert_text modificate_style font_style ">Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.</p>
+                        <div class="schedule_block__speackers modificate_style">
+                            <div class="block_speackers">
+                                <img class="avatar" src="assets/images/AvatarSpeackers/JohnAvatar.png" alt="speackers_image">
+                                <div class="speackers_information">
+                                    <h1 class="speackers_information__name font_style">Bob John</h1>
+                                    <h1 class="speackers_information__token font_style">Booth: 3G12</h1>
                                 </div>
                             </div>
-                            <div class="spiackers" style="width: 270px;height: 56px; display: flex; position: relative; left: 55px">
-                                <img class="avatar" src="assets/images/AvatarSpeackers/RonaldAvatar.png" alt="images">
-                                <div class="spiackers-info">
-                                    <h1 class="about-musik-text" style="margin: 0; width: 204px; font-size: 16px;">Yui Ronald</h1>
-                                    <h1 class="about-musik-text" style="margin: 0; width: 204px; font-size: 16px; opacity: 0.5;">Booth: 2F12</h1>
+                            <div class="block_speackers">
+                                <img class="avatar" src="assets/images/AvatarSpeackers/RonaldAvatar.png" alt="speackers_image">
+                                <div class="speackers_information">
+                                    <h1 class="speackers_information__name font_style">Yui Ronald</h1>
+                                    <h1 class="speackers_information__token font_style">Booth: 2F12</h1>
                                 </div>
                             </div>
-                            <div class="spiackers" style="width: 270px;height: 56px; display: flex; position: relative; left: 55px">
-                                <img class="avatar" src="assets/images/AvatarSpeackers/SatoshiAvatar.png" alt="images">
-                                <div class="spiackers-info">
-                                    <h1 class="about-musik-text" style="margin: 0; width: 204px; font-size: 16px;">Emma Satoshi</h1>
-                                    <h1 class="about-musik-text" style="margin: 0; width: 204px; font-size: 16px; opacity: 0.5;">Booth: 2A35</h1>
+                            <div class="block_speackers">
+                                <img class="avatar" src="assets/images/AvatarSpeackers/SatoshiAvatar.png" alt="speackers_image">
+                                <div class="speackers_information">
+                                    <h1 class="speackers_information__name font_style">Emma Satoshi</h1>
+                                    <h1 class="speackers_information__token font_style">Booth: 2A35</h1>
                                 </div>
                             </div>
                         </div>
-                        <h1 class="about-musik-text" style="float: left; margin-left: 15px; margin-top: 8%; margin-bottom: 0; font-size: 16px; text-align: right; position: relative; left: 20px; gap: 0"><span style="color: #FC5252">Live</span></h1>
-                        <img style="margin-top: 8%;" src="assets/images/icons/Live%20Camera.png" alt="image">
+                        <h1 class="aspeackers_preview__buttons preview__buttons_mood font_style"><span class="font_size__type16 font_color__orange">Live</span></h1>
+                        <img class="speackers_image preview__images_mood" src="assets/images/icons/Live%20Camera.png" alt="icon_image">
                     </div>
 
-                    <hr class="divader" style="width: 1170px; opacity: 0.1">
+                    <hr class="speackers_divider">
 
-                    <div class="info-concert">
-                        <h4 class="about-musik-text" style="margin:0;width: 230px; font-size: 16px; color: #222222; position: relative; left: 40px">03:00 PM to 04:00 PM</h4>
-                        <p class="about-musik-text" style="margin:0; width: 370px; font-size: 16px; position: relative; left: 45px">Vestibulum vel eros vel metus lacinia feugiat a nec metus.</p>
-                        <div class="block-spiackers">
-                            <div class="spiackers" style="width: 270px;height: 56px; display: flex; position: relative; left: 55px">
-                                <img class="avatar" src="assets/images/AvatarSpeackers/JohnAvatar.png" alt="images">
-                                <div class="spiackers-info">
-                                    <h1 class="about-musik-text" style="margin: 0; width: 204px; font-size: 16px;">Sasha Jackson</h1>
-                                    <h1 class="about-musik-text" style="margin: 0; width: 204px; font-size: 16px; opacity: 0.5;">Booth: 2F18</h1>
+                    <div class="information_concert">
+                        <h4 class="concert_header font_style" >03:00 PM to 04:00 PM</h4>
+                        <p class="concert_text font_style">Vestibulum vel eros vel metus lacinia feugiat a nec metus.</p>
+                        <div class="schedule_block__speackers">
+                            <div class="block_speackers">
+                                <img class="avatar" src="assets/images/AvatarSpeackers/JacksonAvatar.png" alt="speackers_image">
+                                <div class="speackers_information">
+                                    <h1 class="speackers_information__name font_style">Sasha Jackson</h1>
+                                    <h1 class="speackers_information__token font_style">Booth: 2F18</h1>
                                 </div>
                             </div>
-                            <div class="spiackers" style="width: 270px;height: 56px; display: flex; position: relative; left: 55px">
-                                <img class="avatar" src="assets/images/AvatarSpeackers/BrockAvatar.png" alt="images">
-                                <div class="spiackers-info">
-                                    <h1 class="about-musik-text" style="margin: 0; width: 204px; font-size: 16px;">Diana Brock</h1>
-                                    <h1 class="about-musik-text" style="margin: 0; width: 204px; font-size: 16px; opacity: 0.5;">Booth: 2F24</h1>
+                            <div class="block_speackers">
+                                <img class="avatar" src="assets/images/AvatarSpeackers/BrockAvatar.png" alt="speackers_image">
+                                <div class="speackers_information">
+                                    <h1 class="speackers_information__name font_style">Diana Brock</h1>
+                                    <h1 class="speackers_information__token font_style">Booth: 2F24</h1>
                                 </div>
                             </div>
                         </div>
-                        <h1 class="about-musik-text" style="float: left; margin-top: 5%; margin-bottom: 0; font-size: 16px; text-align: right; position: relative; left: 20px; gap: 0"><span>Upcoming</span></h1>
-                        <img style="margin-top: 5%;" src="assets/images/icons/Clock.png" alt="image">
+                        <h1 class="speackers_preview__buttons preview__buttons_mood_two font_style"><span>Upcoming</span></h1>
+                        <img class="speackers_image preview__images_mood_two" src="assets/images/icons/Clock.png" alt="image">
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="price">
-        <h1 class="about-musik-text" style="display: flex; justify-content: center; margin: 0; font-size: 34px;">Choose a Tier that’s right for you</h1>
-        <div class="block-price">
-            <div class="price-card" style="width: 370px; height: 404px">
-                <span style="width: 350px; height: 4px; left: 10px; position: relative; align-self: stretch; background: #222; border-radius: 30px 30px 0 0;"></span>
-                <div class="title">
-                    <h3 class="about-musik-text" style="font-size: 24px; text-align: center; margin: 0">Basic</h3>
-                    <h1 class="about-musik-text" style="font-size: 60px; text-align: center; margin: 0">$100</h1>
+        <h1 class="price_header font_style">Choose a Tier that’s right for you</h1>
+        <div class="price_container">
+
+            <div class="price_block__card">
+                <span class="span_palka font_color_background__black"></span>
+                <div class="price_card__title">
+                    <h3 class="price_card__name">Basic</h3>
+                    <h1 class="price_card__dollar">$100</h1>
                 </div>
-                <div class="chisee">
-                    <h4 class="about-musik-text" style="font-size: 16px; text-align: center; margin-top: 0">1 Seat Available</h4>
-                    <h4 class="about-musik-text" style="font-size: 16px; text-align: center; margin-top: 0; opacity: 0.5;">Access to Wifi Router</h4>
-                    <h4 class="about-musik-text" style="font-size: 16px; text-align: center; margin-top: 0; margin-bottom: 0; opacity: 0.5;">Free Food & Coffee</h4>
+                <div class="price_choice">
+                    <h4 class="price_choice__text font_style">1 Seat Available</h4>
+                    <h4 class="price_choice__text opacity_style font_style">Access to Wifi Router</h4>
+                    <h4 class="price_choice__text opacity_style  font_style">Free Food & Coffee</h4>
                 </div>
-                <button class="ticket" style="cursor: pointer; font-family: Montserrat;font-size: 16px; border-radius: 5px; border: 1px solid #381DDB;"><span style="color: #381DDB">Get Tickets</span></button>
+                <button class="price_button_one font_color_background__white" ><span class="font_color__base">Get Tickets</span></button>
             </div>
 
-            <div class="price-card" style="width: 370px; height: 404px">
-                <span style="width: 350px; height: 4px; left: 10px; position: relative; align-self: stretch; background: #381DDB; border-radius: 30px 30px 0 0;"></span>
-                <div class="title">
-                    <h3 class="about-musik-text" style="color: #381DDB; font-size: 24px; text-align: center; margin: 0">Standard</h3>
-                    <h1 class="about-musik-text" style="color: #381DDB; font-size: 60px; text-align: center; margin: 0">$150</h1>
+            <div class="price_block__card">
+                <span class="span_palka font_color_background"></span>
+                <div class="price_card__title">
+                    <h3 class="price_card__name font_color__base">Standard</h3>
+                    <h1 class="price_card__dollar font_color__base">$150</h1>
                 </div>
-                <div class="chisee">
-                    <h4 class="about-musik-text" style="font-size: 16px; text-align: center; margin-top: 0">1 Seat Available</h4>
-                    <h4 class="about-musik-text" style="font-size: 16px; text-align: center; margin-top: 0">Access to Wifi Router</h4>
-                    <h4 class="about-musik-text" style="font-size: 16px; text-align: center; margin-top: 0; margin-bottom: 0; opacity: 0.5;">Free Food & Coffee</h4>
+                <div class="price_choice">
+                    <h4 class="price_choice__text font_style">1 Seat Available</h4>
+                    <h4 class="price_choice__text font_style">Access to Wifi Router</h4>
+                    <h4 class="price_choice__text opacity_style font_style">Free Food & Coffee</h4>
                 </div>
-                <button class="ticket" style="cursor: pointer; background: #381DDB; font-family: Montserrat;font-size: 16px; border-radius: 5px; border: 1px solid #381DDB;"><span style="color: white">Get Tickets</span></button>
+                <button class="price_button_one font_color_background"><span class="font_color__white">Get Tickets</span></button>
             </div>
 
-            <div class="price-card" style="width: 370px; height: 404px">
-                <span style="width: 350px; height: 4px; left: 10px; position: relative; align-self: stretch; background: #FC5252; border-radius: 30px 30px 0 0;"></span>
-                <div class="title">
-                    <h3 class="about-musik-text" style="color: #FC5252; font-size: 24px; text-align: center; margin: 0">Premium</h3>
-                    <h1 class="about-musik-text" style="color: #FC5252; font-size: 60px; text-align: center; margin: 0">$200</h1>
+            <div class="price_block__card">
+                <span class="span_palka font_color_background__black"></span>
+                <div class="price_card__title">
+                    <h3 class="price_card__name">Basic</h3>
+                    <h1 class="price_card__dollar">$100</h1>
                 </div>
-                <div class="chisee">
-                    <h4 class="about-musik-text" style="font-size: 16px; text-align: center; margin-top: 0">1 Seat Available</h4>
-                    <h4 class="about-musik-text" style="font-size: 16px; text-align: center; margin-top: 0">Access to Wifi Router</h4>
-                    <h4 class="about-musik-text" style="font-size: 16px; text-align: center; margin-top: 0; margin-bottom: 0;">Free Food & Coffee</h4>
+                <div class="price_choice">
+                    <h4 class="price_choice__text font_style">1 Seat Available</h4>
+                    <h4 class="price_choice__text font_style">Access to Wifi Router</h4>
+                    <h4 class="price_choice__text font_style">Free Food & Coffee</h4>
                 </div>
-                <button class="ticket" style="cursor: pointer; font-family: Montserrat;font-size: 16px; border-radius: 5px; border: 1px solid #381DDB;"><span style="color: #381DDB">Get Tickets</span></button>
+                <button class="price_button_one font_color_background__white" ><span class="font_color__base">Get Tickets</span></button>
             </div>
 
         </div>
     </section>
     <section class="sponsors">
-        <h2 class="about-musik-text" style="display: flex; justify-content: center; margin: 0; font-size: 34px; margin-bottom: 60px;">Our Sponsors</h2>
-        <div class="image-block-sponsors">
-            <img src="assets/images/SponsorsImage/google.png" alt="image">
-            <img src="assets/images/SponsorsImage/microsoft.png" alt="image">
-            <img src="assets/images/SponsorsImage/aiyzrbaba.png" alt="image">
-            <img src="assets/images/SponsorsImage/axushah.png" alt="image">
-            <img src="assets/images/SponsorsImage/appele.png" alt="image">
-            <img src="assets/images/SponsorsImage/facebooke.png" alt="image">
-            <img src="assets/images/SponsorsImage/nokiya.png" alt="image">
-            <img src="assets/images/SponsorsImage/oracl.png" alt="image">
-        </div>
-        <button class="ticket" style="cursor: pointer; margin-top: 150px; width: 225px; height: 56px; font-family: Montserrat; background: #381DDB; box-shadow: 0 10px 30px 0 rgba(56, 29, 219, 0.20);border-radius: 8px; left: 855px; position: relative; justify-content: center; text-align: center; color: #FFF">Become a Sponsor</button>
-    </section>
-    <section class="testimonials">
-        <h2 class="about-musik-text" style="width: 1920px; position: relative; justify-content: center; display: flex;height: 44px; margin-bottom: 61px">Testimonials</h2>
-        <div class="all-block" style="display: flex; transform: translateX(-11.5%); max-width: 2300px; overflow: hidden; width: 2170px">
-            <div class="content-user" style="
-                                            width: 770px;
-                                            height: 359px;
-                                            margin-left: 30px;
-                                            margin-right: 30px;
-                                            position: relative;
-                                            top: 10px;opacity: 0.3;">
-                <div class="comment-block">
-                    <div class="comment" style="display: block;">
-                        <img style="float: left; margin-top: 30px" src="assets/images/icons/QuotesApp.png" alt="image">
-                        <p class="about-musik-text" style="text-align: center;position: relative;display: flex; width: 650px; height: 72px;font-size: 16px;top: 50px; opacity: 0.6;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <img style="float: right" src="assets/images/icons/QuotesDown.png" alt="image">
-                    </div>
-                </div>
-                <div class="user-block">
-                    <img style="position: relative;bottom: 60px;" src="assets/images/UserAvatar/EllieAvatar.png" alt="image">
-                    <h2 style="position: relative;bottom: 80px;font-size: 20px; font-family: Montserrat">Ellie James</h2>
-                    <h3 style="font-size: 16px;position: relative;bottom: 120px;font-family: Montserrat;color:#381DDB">lorem.com</h3>
-                </div>
+        <h2 class="sponsors_header font_style">Our Sponsors</h2>
+        <div class="sponsors_image__block">
+            <div class="block__images">
+                <img src="assets/images/SponsorsImage/google.png" alt="sponsors_image">
+                <img src="assets/images/SponsorsImage/microsoft.png" alt="sponsors_image">
+                <img src="assets/images/SponsorsImage/aiyzrbaba.png" alt="sponsors_image">
+                <img src="assets/images/SponsorsImage/axushah.png" alt="sponsors_image">
             </div>
-            <div class="content-user" style="width: 770px; height: 359px; position: relative;">
-                <div class="comment-block">
-                    <div class="comment" style="display: block;">
-                        <img style="float: left; margin-top: 30px" src="assets/images/icons/QuotesApp.png" alt="image">
-                        <p class="about-musik-text" style="text-align: center;position: relative;display: flex; width: 650px; height: 72px;font-size: 16px;top: 50px; opacity: 0.6;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <img style="float: right" src="assets/images/icons/QuotesDown.png" alt="image">
-                    </div>
-                </div>
-                <div class="user-block">
-                    <img style="position: relative;bottom: 60px;" src="assets/images/UserAvatar/JohnnyAvatar.png" alt="image">
-                    <h2 style="position: relative;bottom: 80px;font-size: 20px; font-family: Montserrat">Johnny Doe</h2>
-                    <h3 style="font-size: 16px;position: relative;bottom: 120px;font-family: Montserrat;color:#381DDB">ipsum.com</h3>
-                </div>
-            </div>
-            <div class="content-user" style="
-                                            width: 770px;
-                                            height: 359px;
-                                            margin-left: 30px;
-                                            position: relative;
-                                            top: 10px;opacity: 0.3;overflow:hidden;">
-                <div class="comment-block">
-                    <div class="comment" style="display: block;">
-                        <img style="float: left; margin-top: 30px" src="assets/images/icons/QuotesApp.png" alt="image">
-                        <p class="about-musik-text" style="text-align: center;position: relative;display: flex; width: 650px; height: 72px;font-size: 16px;top: 50px; opacity: 0.6;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <img style="float: right" src="assets/images/icons/QuotesDown.png" alt="image">
-                    </div>
-                </div>
-                <div class="user-block" style="width: 720px;">
-                    <img style="position: relative;bottom: 60px;" src="assets/images/UserAvatar/MyneAvatar.png" alt="image">
-                    <h2 style="position: relative;bottom: 80px;font-size: 20px; font-family: Montserrat">Myne Barack</h2>
-                    <h3 style="font-size: 16px;position: relative;bottom: 120px;font-family: Montserrat;color:#381DDB">ipsum.com</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="gallery">
-        <div class="vector-image" style="position: relative; left: 498px; opacity: 0.1; width: 431px; height: 431px;">
-            <img style="margin: 46px; left: 498px;" src="assets/images/GalleryImage/Vector.png" alt="image">
-        </div>
-        <div class="image-lent">
-            <h1 class="about-musik-text" style="margin: 0;font-size: 34px; padding-bottom: 60px;left: 375px; position: relative;">See our Best Shots</h1>
-            <div class="gallery-image">
-                <div class="block-gallery-image" style="opacity: 0.1;">
-                    <img src="assets/images/GalleryImage/OneImageLent.png" alt="image">
-                    <div class="title-and-teg" style="display: block; gap: 8px">
-                        <div class="like-and-comment" style="display: flex; align-items: center; gap: 40px">
-                            <div style="display: flex">
-                                <img src="assets/images/icons/Heart.png" alt="image">
-                                <h5 class="about-musik-text" style="font-size: 16px; margin: 0; margin-left: 5px">412</h5>
-                            </div>
-                            <div style="display: flex">
-                                <img src="assets/images/icons/Chat.png" alt="image">
-                                <h5 class="about-musik-text" style="font-size: 16px; margin: 0; margin-left: 5px">140</h5>
-                            </div>
-                        </div>
-                        <h3 class="about-musik-text" style="margin-bottom: 8px;margin-top: 8px; font-size: 16px">Lorem Ipsum Amet</h3>
-                        <h3 class="about-musik-text" style="margin: 0; font-size: 16px; opacity: 0.5;">#music #concert #conference #london #event #artist #dj #soundtrack #dance</h3>
-                    </div>
-                </div>
-                <div class="block-gallery-image">
-                    <img src="assets/images/GalleryImage/TwoImageLent.png" alt="image">
-                    <div class="title-and-teg" style="display: block; gap: 8px">
-                        <div class="like-and-comment" style="display: flex; align-items: center; gap: 40px">
-                            <div style="display: flex">
-                                <img src="assets/images/icons/Heart.png" alt="image">
-                                <h5 class="about-musik-text" style="font-size: 16px; margin: 0; margin-left: 5px">412</h5>
-                            </div>
-                            <div style="display: flex">
-                                <img src="assets/images/icons/Chat.png" alt="image">
-                                <h5 class="about-musik-text" style="font-size: 16px; margin: 0; margin-left: 5px">140</h5>
-                            </div>
-                        </div>
-                        <h3 class="about-musik-text" style="margin-bottom: 8px;margin-top: 8px; font-size: 16px">Lorem Ipsum Amet</h3>
-                        <h3 class="about-musik-text" style="margin: 0; font-size: 16px; opacity: 0.5;">#music #concert #conference #london #event #artist #dj #soundtrack #dance</h3>
-                    </div>
-                </div>
-                <div class="block-gallery-image">
-                    <img src="assets/images/GalleryImage/ThreeImageLent.png" alt="image">
-                    <div class="title-and-teg" style="display: block; gap: 8px">
-                        <div class="like-and-comment" style="display: flex; align-items: center; gap: 40px">
-                            <div style="display: flex">
-                                <img src="assets/images/icons/Heart.png" alt="image">
-                                <h5 class="about-musik-text" style="font-size: 16px; margin: 0; margin-left: 5px">412</h5>
-                            </div>
-                            <div style="display: flex">
-                                <img src="assets/images/icons/Chat.png" alt="image">
-                                <h5 class="about-musik-text" style="font-size: 16px; margin: 0; margin-left: 5px">140</h5>
-                            </div>
-                        </div>
-                        <h3 class="about-musik-text" style="margin-bottom: 8px;margin-top: 8px; font-size: 16px">Lorem Ipsum Amet</h3>
-                        <h3 class="about-musik-text" style="margin: 0; font-size: 16px; opacity: 0.5;">#music #concert #conference #london #event #artist #dj #soundtrack #dance</h3>
-                    </div>
-                </div>
-                <div class="block-gallery-image">
-                    <img src="assets/images/GalleryImage/FourImageLent.png" alt="image">
-                    <div class="title-and-teg" style="display: block; gap: 8px">
-                        <div class="like-and-comment" style="display: flex; align-items: center; gap: 40px">
-                            <div style="display: flex">
-                                <img src="assets/images/icons/Heart.png" alt="image">
-                                <h5 class="about-musik-text" style="font-size: 16px; margin: 0; margin-left: 5px">412</h5>
-                            </div>
-                            <div style="display: flex">
-                                <img src="assets/images/icons/Chat.png" alt="image">
-                                <h5 class="about-musik-text" style="font-size: 16px; margin: 0; margin-left: 5px">140</h5>
-                            </div>
-                        </div>
-                        <h3 class="about-musik-text" style="margin-bottom: 8px;margin-top: 8px; font-size: 16px">Lorem Ipsum Amet</h3>
-                        <h3 class="about-musik-text" style="margin: 0; font-size: 16px; opacity: 0.5;">#music #concert #conference #london #event #artist #dj #soundtrack #dance</h3>
-                    </div>
-                </div>
-                <div class="block-gallery-image" style="opacity: 0.1;">
-                    <img src="assets/images/GalleryImage/FiveImageLent.png" alt="image">
-                    <div class="title-and-teg" style="display: block; gap: 8px">
-                        <div class="like-and-comment" style="display: flex; align-items: center; gap: 40px">
-                            <div style="display: flex">
-                                <img src="assets/images/icons/Heart.png" alt="image">
-                                <h5 class="about-musik-text" style="font-size: 16px; margin: 0; margin-left: 5px">412</h5>
-                            </div>
-                            <div style="display: flex">
-                                <img src="assets/images/icons/Chat.png" alt="image">
-                                <h5 class="about-musik-text" style="font-size: 16px; margin: 0; margin-left: 5px">140</h5>
-                            </div>
-                        </div>
-                        <h3 class="about-musik-text" style="margin-bottom: 8px;margin-top: 8px; font-size: 16px">Lorem Ipsum Amet</h3>
-                        <h3 class="about-musik-text" style="margin: 0; font-size: 16px; opacity: 0.5;">#music #concert #conference #london #event #artist #dj #soundtrack #dance</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="end-page">
-        <div class="logo">
-            <img style="position: relative; left: 375px; top: 40px" src="assets/logo/WhiteLogo.png" alt="image">
-            <div style="display: flex">
-                <div class="end-menu" style="width:444px; position: relative; left:375px; top: 80px; display: inline-flex; gap: 30px; align-items: flex-start;">
-                    <h2 class="about-musik-text" style="margin: 0;font-size: 16px; color: #FFFFFF">HOME</h2>
-                    <h2 class="about-musik-text" style="margin: 0;font-size: 16px; color: #FFFFFF">COMPANY</h2>
-                    <h2 class="about-musik-text" style="margin: 0;font-size: 16px; color: #FFFFFF">BLOG</h2>
-                    <h2 class="about-musik-text" style="width:100px;display:block ruby; margin: 0;font-size: 16px; color: #FFFFFF">CONTACT US</h2>
-                    <h2 class="about-musik-text" style="margin: 0;font-size: 16px; color: #FFFFFF">SITEMAP</h2>
-                </div>
-                <div class="icon-social-seti" style="position:relative; left: 650px; top: 70px; display: inline-flex;align-items: center; gap: 30px;">
-                    <img src="assets/images/icons/social-seti-icon/FacebookIcon.png" alt="image">
-                    <img src="assets/images/icons/social-seti-icon/TwitterIcon.png" alt="image">
-                    <img src="assets/images/icons/social-seti-icon/LinkedinIcon.png" alt="image">
-                    <img src="assets/images/icons/social-seti-icon/InstagramIcon.png" alt="image">
-                </div>
-                <h2 class="about-musik-text" style="opacity:0.3;top: 80px; display: block ruby;width: 104px; margin: 0;font-size: 12px; color: #FFFFFF;position:relative; left: 720px;">© musik.com, 2024</h2>
+            <div class="block__images">
+                <img src="assets/images/SponsorsImage/appele.png" alt="sponsors_image">
+                <img src="assets/images/SponsorsImage/facebooke.png" alt="sponsors_image">
+                <img src="assets/images/SponsorsImage/nokiya.png" alt="sponsors_image">
+                <img src="assets/images/SponsorsImage/oracl.png" alt="sponsors_image">
             </div>
         </div>
     </section>
@@ -551,82 +318,47 @@
         margin: 0;
         padding: 0;
         width: 100%;
+        height: 100%;
         max-width: 1920px;
-        height: 9023px;
+        gap: 250px;
+        display: grid;
         background: #FFF;
     }
     /* Стиль для блока "Hero" */
     .hero{
+        flex-shrink: 0;
         width: 1920px;
         height: 964px;
         background: linear-gradient(180deg, #381DDB 0%, rgba(0, 0, 0, 0.20) 100%),
-                    linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%,
-                    rgba(0, 0, 0, 0.20) 100%), url(assets/images/ImageFont.png)
-                    lightgray 50% / cover no-repeat;
-        flex-shrink: 0;
-        background-position: top center;
+        linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%,
+                rgba(0, 0, 0, 0.20) 100%), url(assets/images/ImageFont.png)
+        lightgray 50% / cover no-repeat;
     }
-    .buttn{
-        color: #FFFFFF;
-        font-family: Montserrat;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 20px;
-        text-transform: uppercase;
-    }
-    .arrow-icon{
-        position: absolute;
-        padding-top: 5px;
-        padding-left: 10px;
-    }
-    .menu{
+    .hero_menu{
+        width: 1920px;
         max-width: 1920px;
-        display: inline-flex;
-        padding: 32px 363px 32px 363px;
+        height: 120px;
+        border: 1px black solid;
         justify-content: center;
         align-items: center;
         gap: 371px;
-        border: 1px solid #000;
+        display: inline-flex
     }
-    .buttons-client{
+    .header_logo{
+        cursor: pointer;
+        width: 125px;
+        height: 30px;
+        background: white;
+    }
+    .menu_buttons{
         display: flex;
         align-items: center;
         gap: 50px;
     }
-    .container{
-        width: auto;
-    }
-    .ticket{
-        width: 175px;
-        height: 56px;
-        display: flex;
-        padding: 18px 16px;
-        align-items: center;
-        gap: 12px;
-        justify-content: center;
-        border-radius: 8px;
-        background: #FFF;
-    }
-    .ticket-text{
-        color: #381DDB;
-        font-feature-settings: 'clig' off, 'liga' off;
-        font-family: Montserrat;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        text-align: center;
-    }
-    .logo{
-        width: 125px;
-        height: 30px;
-        fill: #FFF;
-    }
     /*Закрытие стиля для блока "Hero" */
 
     /* Стиль для блока "Content" */
-    .content{
+    .header_banner{
         position: relative;
         top: 50px;
         left: 475px;
@@ -639,37 +371,55 @@
         align-items: center;
         gap: 40px;
     }
-    .best{
+    .header_banner__information{
         align-self: stretch;
         color: #FFF;
         margin-bottom: 7px;
         text-align: center;
-        font-family: Montserrat;
+        font-family: Montserrat, Arial, sans-serif;
         font-size: 72px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         text-transform: capitalize;
     }
-    .label{
-        width: 220px;
-        height: 56px;
-        text-align: center;
-    }
-    .text{
+    .header_banner__text{
+        margin-top: 0;
         color: #FFF;
-        font-family: Montserrat;
+        font-family: Montserrat, Arial, sans-serif;
         font-size: 22px;
         text-align: center;
         font-style: normal;
         font-weight: 400;
-        line-height: 38px; /* 158.333% */
+        line-height: 38px;
     }
-    .data{
+    .get_watch{
+        display: flex;
+        gap: 40px
+    }
+    .get_watch__ticket{
+        border-color: #FC5252;
+        cursor: pointer;
+        background:#FC5252;
+        border-radius: 8px;
+        font-size: 16px;
+        width: 164px;
+        font-family: Montserrat, Arial, sans-serif;
+    }
+    .label_text{
+        font-family: Montserrat, Arial, sans-serif;
+        color: white;
+        font-size: 20px;
+        position: relative;
+        display: initial;
+        bottom: 20px;
+        left: 10px
+    }
+    .header_data{
         top: 130px;
         position: relative;
     }
-    .text-data{
+    .header_text__data{
         color: #FFFFFF;
         text-align: center;
         font-family: Montserrat;
@@ -682,36 +432,53 @@
         -webkit-text-stroke-width: 1px;
     }
     /*Закрытие стиля для блока "Content" */
+
     /* Стиль для блока "categories" */
-    .categories{
-        width: 100%;
-        position: relative;
-        top: 250px;
+    .category{
+        width: 1920px;
+        height: 431px;
+        position: relative
     }
-    .category-text{
+    .category_container{
+
+    }
+    .category_container__text{
         left: 375px;
         width: 50%;
         position: relative;
-        font-family: Montserrat;
+        color: black;
         font-size: 34px;
         font-style: normal;
         font-weight: 700;
         line-height: 130%;
         bottom: 60px;
+        font-family: Montserrat, Arial, sans-serif;
     }
-    .category-block{
+    .category_text_span{
+        color: #381DDB;
+    }
+    .category_block__card{
         display: inline-flex;
         align-items: center;
         gap: 40px;
         transform: translateX(-2%)
     }
-    .block{
-        width: 370px;
-        height: 326px;
-        flex-shrink: 0;
-        border-radius: 24px;
+    .card_block__mixer{
+        background: rgba(219, 132, 29, 0.1)
     }
-    .content-block{
+    .card_block__bagpipes{
+        background: rgba(252, 82, 82, 0.1)
+    }
+    .card_block__saxophone{
+        background: #381DDB;
+    }
+    .card_block__guitar{
+        background: rgba(192, 0, 150, 0.1);
+    }
+    .card_block__trumpet{
+        background: rgba(132, 196, 255, 0.1)
+    }
+    .category_content__block{
         position: relative;
         left: 60px;
         top: 90px;
@@ -722,70 +489,90 @@
         align-items: flex-start;
         gap: 30px;
     }
-    .headin{
-        color: #222;
+    .card_headin{
         margin: 0;
-        font-feature-settings: 'clig' off, 'liga' off;
-        font-family: Montserrat;
+        color: #222222;
         font-size: 24px;
-        font-style: normal;
+        font-family: Montserrat, Arial, sans-serif;
         font-weight: 800;
-        line-height: 38px; /* 158.333% */
+        line-height: 38px;
     }
-    .slogan{
+    .card_slogan{
         width: 190px;
         margin: 0;
-        opacity: 0.5;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
+        opacity: 0.70;
+        word-wrap: break-word
     }
-    /*Закрытие стиля для блока "Content" */
+    /*Закрытие стиля для блока "categories" */
+
     /* Стиль для блока "About Musik" */
-    .about-music{
+    .about_music{
         width: 70%;
         max-width: 1920px;
         height: 550px;
-        /*padding: 0px 375px;*/
         left: 375px;
         right: 375px;
-        top: 500px;
         position: relative;
         justify-content: center;
         align-items: center;
         gap: 70px;
     }
-    .image-about{
+    .about_music__information{
+        display: flex;
+    }
+    .about_music_image__one{
         position: absolute;
     }
-    .info-musik{
-        width: 570px;
+    .about_music_image__two{
+        position: relative;
+        top: 70px;
+        left: 70px;
     }
-    .about-musik-text{
-        /*width: 300px;*/
+    .information_music{
+        width: 570px;
+        position: relative;
+        left: 140px;
+        top: 107px
+    }
+    .information_music__header{
         margin-bottom: 32px;
-        align-self: stretch;
         color: black;
-        font-family: Montserrat;
         font-size: 34px;
         font-style: normal;
         font-weight: 700;
-        line-height: 130%; /* 44.2px */
+        line-height: 130%;
+        align-self: stretch;
     }
-    .musik-text{
-        color: #222;
+    .information_music__text{
+        color: black;
+        width: 570px;
+        opacity: 0.70;
         font-feature-settings: 'clig' off, 'liga' off;
-        font-family: Montserrat;
+        font-family: Montserrat, Arial, sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
         margin-bottom: 80px;
     }
+    .information_music__buttons{
+        background: #381DDB;
+        border-radius: 8px;
+        cursor: pointer;
+        width: 199px;
+    }
+    .music_buttons_text{
+        color: #FFF;
+    }
     /*Закрытие стиля для блока "About Musik" */
+
     /* Стиль для блока "Singers" */
     .singers{
+        display: flex;
         width: 70%;
         max-width: 1920px;
         height: 712px;
@@ -795,34 +582,130 @@
         justify-content: center;
         align-items: center;
         gap: 70px;
-        top: 750px;
+    }
+    .singers_information__music{
+        position: relative;
+        gap: 70px
+    }
+    .singers_information__header{
+        width: 470px;
+        color: #222222;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 44.20px;
+        word-wrap: break-word
+    }
+    .singers_header__text{
+        width: 470px;
+        opacity: 0.70;
+        color: #222222;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        word-wrap: break-word;
+    }
+    .singers_button{
+        width: 243px;
+        height: 60px;
+        padding-left: 34px;
+        padding-right: 34px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        background: #381DDB;
+        box-shadow: 0px 10px 30px rgba(56, 29, 219, 0.20);
+        border-radius: 8px;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 12px;
+        display: inline-flex;
+        cursor: pointer;
+        top: 80px;
+        position: relative;
+    }
+    .singers_button__text{
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+        word-wrap: break-word
+    }
+    .images__one{
+        position: relative;
+        padding-top: 40px;
+        margin-right: 30px;
+        border-radius: 24px;
+        -webkit-filter: drop-shadow(10px 10px 10px lightgray);
+        filter: drop-shadow(15px 15px 15px lightgray);
+    }
+    .images__two{
+        position: relative;
+        padding-bottom: 40px;
+        -webkit-filter: drop-shadow(10px 10px 10px lightgray);
+        filter: drop-shadow(15px 15px 15px lightgray);
+    }
+    .images__three{
+        position: relative;
+        top: 51px;
+        margin-right: 30px;
+        -webkit-filter: drop-shadow(10px 10px 10px lightgray);
+        filter: drop-shadow(15px 15px 15px lightgray);
+    }
+    .images__four{
+        position: relative;
+        -webkit-filter: drop-shadow(10px 10px 10px lightgray);
+        filter: drop-shadow(15px 15px 15px lightgray);
     }
     /*Закрытие стиля для блока "Singers" */
     /* Стиль для блока "event-schedule" */
-    .event-schedule{
+    .event_schedule{
         display: flex;
         position: relative;
-        top: 1000px;;
         width: 100%;
+        height: 1178px;
         max-width: 1920px;
         padding-top: 160px;
         justify-content: center;
         align-items: center;
         background: linear-gradient(180deg, rgba(56, 29, 219, 0.05) 0%, rgba(56, 29, 219, 0.00) 100%);
     }
-    .event-schedule-info{
+    .event_schedule__information{
         display: inline-flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 60px;
     }
-    .menu-event-schedule{
-        width: 1170px;
-        height: 120px;
-        flex-shrink: 0;
-        background: rgba(56, 29, 219, 0.1);
+    .event_schedule__header{
+        margin: 0;
+        width: 470px;
+        color: #222222;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 44.20px;
+        word-wrap: break-word
     }
-    .schedule-artist{
+    .event_schedule__data{
+        display: flex;
+        align-items: center;
+        gap: 30px
+    }
+    .event_block__data{
+        width: 370px
+    }
+    .event_block__text{
+        font-size: 24px;
+        margin: 0;
+        margin-bottom: 3px
+    }
+    .block_text{
+        font-size: 16px;
+        opacity: 0.5;
+        margin: 0;
+        margin-bottom: 20px
+    }
+    .block_palka{
+        width: 370px;
+        height: 4px;
+    }
+    .event_schedule__artist{
         display: inline-flex;
         flex-direction: column;
         align-items: center;
@@ -830,164 +713,272 @@
         border-radius: 24px;
         border: 1px solid #E0E0E0;
     }
-    .info-concert{
+    .event_schedule__menu{
         display: flex;
+        border-radius: 24px 24px 0 0;
         width: 1170px;
-        align-items: flex-start;
-        gap: 30px;
+        height: 120px;
+        flex-shrink: 0;
+        background: rgba(56, 29, 219, 0.1);
     }
-    .block-artist-info{
+    .event_schedule__menu_time{
+        width: 230px;
+        font-size: 24px;
+        margin-top: 41px;
+        margin-bottom: 41px;
+        margin-left: 40px
+    }
+    .event_schedule__menu_content{
+        width: 370px;
+        font-size: 24px;
+        margin-top: 41px;
+        margin-bottom: 41px;
+        margin-left: 40px
+    }
+    .event_schedule__menu_speakers{
+        width: 270px;
+        font-size: 24px;
+        margin-top: 41px;
+        margin-bottom: 41px;
+        margin-left: 40px
+    }
+    .schedule_artist__information{
         display: inline-flex;
         padding-bottom: 40px;
         flex-direction: column;
         align-items: center;
         gap: 40px;
     }
-    .block-spiackers{
-        display: flex;
-        flex-direction: column;
+    .information_concert{
+        justify-content: flex-start;
         align-items: flex-start;
-        gap: 32px;
+        gap: 30px;
+        display: inline-flex
     }
-    .spiackers{
+    .concert_header{
+        margin:0;
+        width: 230px;
+        font-size: 16px;
+        color: #222222;
+        position: relative;
+    }
+    .concert_text{
+        margin:0;
+        width: 370px;
+        font-size: 16px;
+        position: relative;
+    }
+    .schedule_block__speackers{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 32px;
+        display: inline-flex
+    }
+    .block_speackers{
+        width: 270px;
+        height: 56px;
+        display: flex;
+        position: relative;
         align-items: center;
         gap: 10px;
+        left: 10px;
+    }
+    .speackers_information{
+        align-items: center;
+        gap: 10px;
+    }
+    .speackers_information__name{
+        margin: 0;
+        width: 204px;
+        font-size: 16px;
+    }
+    .speackers_information__token{
+        margin: 0;
+        width: 204px;
+        font-size: 16px;
+        opacity: 0.5;
+    }
+    .speackers_preview__buttons{
+        margin-bottom: 0;
+        font-size: 16px;
+        text-align: right;
+        position: relative;
+        left: 20px;
+        gap: 0
+    }
+    .speackers_image{
+        margin-top: 12px
+    }
+    .speackers_divider{
+        width: 1170px;
+        opacity: 0.1
+    }
+    .preview__buttons_mood{
+        position: relative;
+        margin-top: 9%;
+        float: left;
+    }
+    .preview__images_mood{
+        position: relative;
+        margin-top: 9.5%;
+    }
+    .preview__buttons_mood_two{
+        float: left;
+        margin-top: 5%;
+        margin-bottom: 0;
+        font-size: 16px;
+        text-align: right;
+        position: relative;
+        left: 20px;
+    }
+    .preview__images_mood_two{
+        position: relative;
+        margin-top: 4.9%;
     }
     /*Закрытие стиля для блока "event-schedule" */
     /* Стиль для блока "price" */
     .price{
-        display: flex;
-        position: relative;
-        top: 1250px;;
         width: 100%;
         max-width: 1920px;
+        height: 508px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 60px;
+        display: inline-flex
+    }
+    .price_header{
+        text-align: center;
+        color: #222222;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 44.20px;
+        word-wrap: break-word
+    }
+    .price_container{
+        width: 1170px;
+        height: 404px;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+        display: inline-flex
+    }
+    .price_block__card{
+        width: 370px;
+        height: 404px;
+        padding-bottom: 30px;
+        background: white;
+        box-shadow: 0 20px 100px rgba(34, 34, 34, 0.15);
+        border-radius: 20px;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 26px;
+        display: inline-flex
+    }
+    .span_palka{
+        width: 350px;
+        height: 4px;
+        left: 10px;
+        position: relative;
+        align-self: stretch;
+        border-radius: 30px 30px 0 0;
+    }
+    .price_card__title{
+        width: 370px;
+        padding-left: 30px;
+        padding-right: 30px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+        display: inline-flex
+    }
+    .price_card__name{
+        font-size: 24px;
+        text-align: center;
+        margin: 0
+    }
+    .price_card__dollar{
+        font-size: 60px;
+        text-align:
+                center; margin: 0
+    }
+    .price_choice{
+        width: 158px;
+        height: 102px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+        display: inline-flex
+    }
+    .price_choice__text{
+        font-size: 16px;
+        text-align: center;
+        margin: 0
+    }
+    .price_button_one{
+        width: 162px;
+        height: 56px;
+        margin-top: 30px;
+        padding-left: 34px;
+        padding-right: 34px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        border-radius: 5px;
+        border: 1px #381DDB solid;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 12px;
+        display: inline-flex;
+        cursor: pointer;
+        font-family: Montserrat;
+        font-size: 16px;
+    }
+    /*Закрытие стиля для блока "price" */
+
+    /* Стиль для блока "sponsors" */
+    .sponsors{
+        width: 1920px;
+        height: 414px;
+        position: relative
+    }
+    .sponsors_header{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        margin-bottom: 60px;
+        font-size: 34px;
+    }
+    .sponsors_image__block{
+        width: 1170px;
+        height: 174px;
+        left: 375px;
+        top: 104px;
+        position: absolute;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 60px;
+        display: inline-flex
     }
-    .title{
-        display: flex;
-        flex-direction: column;
+    .block__images{
+        width: 1070px;
+        justify-content: space-between;
         align-items: center;
-        gap: 15px;
-        align-self: stretch;
-    }
-    .price-card{
-        display: flex;
-        padding-bottom: 30px;
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-        flex: 1 0 0;
-        border-radius: 20px;
-        background: #FFF;
-        box-shadow: 0 20px 100px 0 rgba(34, 34, 34, 0.15);
-    }
-    .block-price{
-        display: flex;
-        gap: 30px;
-    }
-    /*Закрытие стиля для блока "price" */
-    /* Стиль для блока "sponsors" */
-    .sponsors{
-        width: 100%;
-        max-width: 1920px;;
-        height: 414px;
-        flex-shrink: 0;
-        position: relative;
-        top: 1500px;;
-        justify-content: center;
-        align-items: center;
-    }
-    .image-block-sponsors {
-        display: grid;
-        width: 1170px;
-        height: 174px;
-        position: relative;
-        left: 375px;
-        padding-left: 30px;
-        flex-direction: column;
-        grid-template-columns: repeat(4, 1fr);
-        justify-content: center;
-        align-items: center;
-        gap: 100px;
-        /*flex-shrink: 0;*/
+        display: inline-flex
     }
     /*Закрытие стиля для блока "sponsors" */
     /* Стиль для блока "testimonials" */
-    .testimonials{
-        display: block;
-        position: relative;
-        width: 100%;
-        top: 1750px;;
-        max-width: 1920px;
-        height: 494px;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
-    }
-    .comment-block{
-        width: 770px;
-        height: 232px;
-        gap: 30px;
-        flex-shrink: 0;
-        background: rgba(34, 34, 34, 0.1);
-    }
-    .comment{
-        width: 710px;
-        display: inline-flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-        position: relative;
-        left: 30px;
-        right: 30px;
-        top: 20px;
-    }
-    .user-block{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        height: 150px;
-    }
+
     /*Закрытие стиля для блока "testimonials" */
     /* Стиль для блока "gallery" */
-    .gallery{
-        width: 100%;
-        max-width: 1920px;
-        height: 770px;
-        flex-shrink: 0;
-        background: linear-gradient(180deg, rgba(252, 82, 82, 0.05) 0%, rgba(252, 82, 82, 0.00) 100%);
-        position: relative;
-        top: 2000px;;
-    }
-    .image-lent{
-        position: absolute;
-        top: 160px;
-    }
-    .gallery-image{
-        width: 100%;
-        display: flex;
-        gap: 30px;
-    }
-    .block-gallery-image{
-        display: inline-flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 24px;
-    }
+
     /*Закрытие стиля для блока "gallery" */
     /* Стиль для блока "end-page" */
-    .end-page{
-        width: 100%;
-        max-width: 1920px;
-        height: 180px;
-        flex-shrink: 0;
-        position: relative;
-        top: 2250px;;
-        background: #222;
-    }
+
     /*Закрытие стиля для блока "end-page" */
 </style>

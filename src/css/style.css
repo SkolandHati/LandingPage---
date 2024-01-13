@@ -1,0 +1,83 @@
+@import url('/src/assets/fonts/Montserrat/Montserrat.css');
+
+.containet_text_m{
+    font-family: Montserrat, Arial, sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 20px;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+.font_style{
+    font-family: Montserrat, Arial, sans-serif;
+}
+
+.font_size__type16{
+    font-size: 16px;
+}
+
+.font_color__orange{
+    color: #FC5252
+}
+
+.font_color__white{
+    color: #FFFFFF;
+}
+.font_color__black{
+    color: black;
+}
+.font_color_background__black{
+    background: black;
+}
+.font_color_background__white{
+    background: #FFFFFF;
+}
+.font_color__base{
+    color: #381DDB;
+}
+
+.font_color_background{
+    background: #381DDB
+}
+
+.opacity_style{
+    opacity: 0.5;
+}
+
+
+.button_style{
+    width: 175px;
+    height: 56px;
+    padding-left: 34px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background: white;
+    border-radius: 8px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    display: inline-flex
+}
+
+.button_text_m{
+    cursor: pointer;
+    color: #381DDB;
+    font-size: 16px;
+    font-family: Montserrat, Arial, sans-serif;
+    font-weight: 700;
+    word-wrap: break-word
+}
+.card_style{
+    width: 370px;
+    height: 326px;
+    flex-shrink: 0;
+    border-radius: 24px;
+}
+
+.modificate_style{
+    position: relative;
+    right: 20px;
+}
