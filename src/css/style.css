@@ -47,6 +47,10 @@
     opacity: 0.5;
 }
 
+.opacity_style__gallery{
+    opacity: 0.1;
+}
+
 
 .button_style{
     width: 175px;

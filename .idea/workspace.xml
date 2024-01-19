@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9f3611e-218a-479c-b2c3-d5c98591293b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImageFont.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Img.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +96,10 @@
       <workItem from="1705031879489" duration="1224000" />
       <workItem from="1705033115721" duration="28000" />
       <workItem from="1705033153519" duration="37727000" />
+      <workItem from="1705221930331" duration="8983000" />
+      <workItem from="1705408655135" duration="5423000" />
+      <workItem from="1705472254482" duration="2614000" />
+      <workItem from="1705674667212" duration="1236000" />
     </task>
     <servers />
   </component>
